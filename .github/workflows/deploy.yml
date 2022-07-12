@@ -23,5 +23,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           script: |
-            cd AWS_TEST/AWS_TEST
+            cd AWS_TEST/
             git pull
